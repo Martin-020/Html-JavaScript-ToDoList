@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.todo-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.list-group-item {
+  transition: all 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.text-decoration-line-through {
+  transition: color 0.3s ease;
+}
+
+button.btn {
+  transition: all 0.2s ease;
+}
+
+button.btn:hover {
+  opacity: 0.85;
+}
+
+li .text-muted {
+  font-size: 0.75rem;
+}
+
+#taskTable td {
+  vertical-align: middle;
+}
+
+#taskTable td:nth-child(2) {
+  word-break: break-word;
+}
+
